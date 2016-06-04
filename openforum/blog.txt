@@ -1,0 +1,41 @@
+[
+    {
+        "fieldInput": "id:increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "title:string,20",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "fieldInput": "body:text",
+        "htmlType": "textarea",
+	"validations": "required",
+	"searchable": true,
+        "inForm": true
+    },
+    {
+        "fieldInput": "post_date:dateTime",
+        "htmlType": "date"
+    },
+    {
+        "fieldInput": "attachment:string",
+        "htmlType": "file"
+    },
+    {
+        "fieldInput": "post_type:string",
+        "htmlType": "select:Archived,Draft,Active,Closed",
+        "searchable": true
+    }
+]
+

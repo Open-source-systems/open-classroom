@@ -1,0 +1,33 @@
+[
+    {
+        "fieldInput": "id:increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "title:string,20",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "fieldInput": "body:text",
+        "htmlType": "textarea",
+	"validations": "required",
+	"searchable": true,
+        "inForm": true
+    },
+    {
+        "fieldInput": "forum_type:string",
+        "htmlType": "select:private,public",
+        "searchable": true
+    }
+]
+
